@@ -12,7 +12,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop",
+    "start": "npm run develop --open",
     "format": "prettier --write \"src/**/*.js\"",
     "deploy": "gatsby build && mv public/ docs/ && git add -A && git commit -am 'New release' && git push origin master",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
