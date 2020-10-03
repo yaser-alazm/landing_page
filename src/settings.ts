@@ -4,7 +4,7 @@
  This is the link to your domain...it redirects the user to your myaccount page.
  It is used on the site on buttons like: Buy now, Order now, Members, Buy HTTP proxies, etc.
 */
-export const MEMBERS_URL = 'https://confident-benz-e1c490.netlify.app/';
+export const MEMBERS_URL = 'https://myaccount.mytrustedproxies.com';
 
 /*
  Your site name - this appears in the footer
