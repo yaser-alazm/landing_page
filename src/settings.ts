@@ -9,12 +9,12 @@ export const MEMBERS_URL = 'https://members.url.goes.here';
 /*
  Your site name - this appears in the footer
 */
-export const SITE_NAME = 'Site name goes here';
+export const SITE_NAME = 'My Trusted Proxies';
 
 /*
  The name of you site that appears in Terms of service section - it can be you domain, your company name, etc.
 */
-export const TOS_SITE_NAME = 'whatever-you-need';
+export const TOS_SITE_NAME = 'My Trusted Proxies';
 
 /*
  The date when the terms of service where last updated.
@@ -30,8 +30,7 @@ export const TAWK_TO_WIDGET_URL =
 /*
  This is the link to your backend services. It is used to get the data for prices and datacenters. Normally, you shouldn't touch this one
 */
-export const BACKEND_URL =
-	'https://oauth.drsoft.com/datacenters/locations/?fbclid=IwAR1t4w5NeCqDJLRJhcnbGB_Lq5OLD_VVQLbyIvsC8zbxznSNrqMF_MWqvH8';
+export const BACKEND_URL = 'https://oauth.drsoft.com';
 
 /*
  Meta tags for SEO - description and keywords for this site
