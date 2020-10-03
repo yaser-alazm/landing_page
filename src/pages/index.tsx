@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import {connect} from 'react-redux';
 import Helmet from 'react-helmet';
 
 // Scroll
@@ -12,22 +12,17 @@ import MainRoute from '../components/pages/main';
 import get from 'lodash/get';
 
 // Actions
-import { setScrollElement } from '../actions';
+import {setScrollElement} from '../actions';
 
 // Constants
-import {
-	SEO_DESCRIPTION,
-	SEO_KEYWORDS
-} from '../settings';
+import {SEO_DESCRIPTION, SEO_KEYWORDS} from '../settings';
 
 interface Props {
-	doClearScrollElement(): void,
-	scrollElement?: any
+	doClearScrollElement(): void;
+	scrollElement?: any;
 }
 
-interface State {
-
-}
+interface State {}
 
 class MainPage extends React.Component<Props, State> {
 	componentDidMount() {
@@ -35,7 +30,7 @@ class MainPage extends React.Component<Props, State> {
 	}
 
 	handleScroll() {
-		const { doClearScrollElement, scrollElement } = this.props;
+		const {doClearScrollElement, scrollElement} = this.props;
 
 		if (scrollElement) {
 			Scroll.scroller.scrollTo(scrollElement, {
@@ -51,7 +46,9 @@ class MainPage extends React.Component<Props, State> {
 		return (
 			<React.Fragment>
 				<Helmet>
-					<title>Anonymous proxies and SOCKSv5</title>
+					<title>
+						My Trusted Proxies | Anonymous proxies and SOCKSv5
+					</title>
 					<meta name="description" content={SEO_DESCRIPTION} />
 					<meta name="keywords" content={SEO_KEYWORDS} />
 				</Helmet>
@@ -62,11 +59,11 @@ class MainPage extends React.Component<Props, State> {
 	}
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
 	scrollElement: get(state, 'core.scrollElement', null)
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
 	doClearScrollElement: () => dispatch(setScrollElement(null))
 });
 
