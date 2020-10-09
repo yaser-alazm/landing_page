@@ -86,9 +86,9 @@ class Support extends React.Component<Props, State> {
 					</Preamble>
 
 					<div className="support-container text-center">
-						<ChatLink />
+						{/* <ChatLink />
 
-						<div className="support-separator">or</div>
+						<div className="support-separator">or</div> */}
 					</div>
 
 					<Form>
