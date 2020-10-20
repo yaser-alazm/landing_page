@@ -39,9 +39,14 @@ const MainHero = ({ minPrice }: Props) => (
 					<br />
 					(shared or dedicated) starting at just ${minPrice}
 				</p>
+				<Row>
+					<Col>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ZxlErAeTCbI?autoplay=1&mute=1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ng-show="showvideo"></iframe>
+					</Col>
+				</Row>
 				<a
 					href={MEMBERS_URL}
-					className="btn btn--green btn--lg mb-0 mt-4">
+					className="btn btn--green btn--lg mb-0 mt-2">
 					Members
 					<FontAwesomeIcon icon={faArrowRight} className="ml-2" />
 				</a>
