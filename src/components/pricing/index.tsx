@@ -19,6 +19,9 @@ import '../../styles/components/pricing.scss';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 
+// SVG
+import {faCircleNotch} from '@fortawesome/free-solid-svg-icons';
+
 // Constants
 import {
 	BILLING_CYCLES,
