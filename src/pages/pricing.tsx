@@ -28,7 +28,7 @@ class PricingPage extends React.Component<Props, State> {
 		return (
 			<React.Fragment>
 				<Helmet>
-					<title>Pricing</title>
+					<title>Pricing | MyTrustedProxies</title>
 					<meta name="description" content={SEO_DESCRIPTION} />
 					<meta name="keywords" content={SEO_KEYWORDS} />
 				</Helmet>
