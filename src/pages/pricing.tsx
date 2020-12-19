@@ -7,8 +7,7 @@ import MenuItem from '../components/navbar/secondaryMenuItem';
 import Footer from '../components/footer';
 import PricingHero from '../components/hero/pricingHero';
 import Pricing from '../components/pricing';
-import Features from '../components/features';
-import Reviews from '../components/reviews';
+
 
 // Constants
 import {
@@ -40,10 +39,6 @@ class PricingPage extends React.Component<Props, State> {
 				</main>
 
 				<Pricing />
-
-				<Features />
-
-				<Reviews />
 
 				<Footer />
 			</React.Fragment>
